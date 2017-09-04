@@ -1,0 +1,20 @@
+{
+  "name": "trace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wjrm",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consolidate": "^0.14.5",
+    "express": "^4.15.4",
+    "helmet": "^3.8.1",
+    "mongodb": "^2.2.31",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.11.10"
+  }
+}

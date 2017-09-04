@@ -1,0 +1,11 @@
+#ssn_label {
+  width: 150;
+}
+input {
+  width: 150px;
+  height: 60px;
+}
+label {
+  width: 150px;
+  height: 40px;
+}
