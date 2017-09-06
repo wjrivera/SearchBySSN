@@ -15,8 +15,16 @@
                 templateUrl: '../views/home.html',
                 controller: 'HomeCtrl'
             })
+            .when('/ssn', {
+                templateUrl: '../views/ssn.html',
+                controller: 'HomeCtrl'
+            })
             .when('/user', {
                 templateUrl: '../views/user.html',
+                controller: 'UserCtrl'
+            })
+            .when('/investigator', {
+                templateUrl: '../views/investigator.html',
                 controller: 'UserCtrl'
             })
             .otherwise({

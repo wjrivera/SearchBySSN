@@ -1,52 +1,14 @@
 <div class="container" ng-controller="HomeCtrl">
     <div class="row">
         <div class="col-lg-12">
-            <h1>Find by SSN</h1>
+            <h1>Home</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12">
-
-            <form class='form-inline clearfix'>
-                <input type='text' id="ssn_label" placeholder='SSN' class='form-control'
-                       ng-model='form.ssn'
-                       autofocus>
-                <button class='btn btn-primary' ng-click='submitMyForm(form)'>Submit</button>
-            </form>
-
-            <div class="col-sm-12" ng-repeat=" x in form.listUsers">
-                <hr>
-
-                <div class="col-sm-12">
-
-                </div>
-
-                <div class="col-sm-2">
-                    Report ID: <br>
-                    Name:<br>
-                    Address:<br>
-                    Home/Cell/Work:<br>
-                    SSN:<br>
-                    Email: <br>
-                    DOB:
-                </div>
-
-                <div class="col-sm-8">
-                    {{x.rid}}<br>
-                    {{x.first}} {{x.middle}} {{x.last}}<br>
-                    {{x.street}} {{x.city}}, {{x.state}} {{x.zip}}<br>
-                    {{x.home}} / {{x.cell}} / {{x.work}}<br>
-                    {{x.ssn}}<br>
-                    {{x.email}}<br>
-                    {{x.dob}}
-                </div>
-                <div class="col-sm-2">
-                    <button ng-click="submitById(x)">Edit</button>
-                </div>
-
-            </div>
-            <hr>
-
+        <div class="col-lg-12">
+            <a href="#ssn" ><button class="btn btn-primary">SSN</button></a>
+            <a href="#user" ><button class="btn btn-primary">Users</button></a>
+            <a href="#investigator" ><button class="btn btn-primary">Investigator</button></a>
         </div>
     </div>
 </div>

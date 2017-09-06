@@ -1,8 +1,8 @@
 <div class="container" ng-controller="UserCtrl">
     <div class="row">
         <div class="col-lg-12">
-            <h1>Order Taker</h1>
-            <h3>Insert new order</h3>
+            <h1>Investigator</h1>
+            <h3>Current User</h3>
         </div>`
     </div>
     <hr>
@@ -73,7 +73,23 @@
                            autofocus>
 
                     <h4>Job Information</h4>
-                    <h6>Work in progess</h6>
+                    <label class="label2">MVR Info:</label>
+                    <input type='text' placeholder="MVR Info"
+                           ng-model='currentUser.home'
+                           autofocus><span />
+                    <label class="label2">Occupation:</label>
+                    <input type='text' placeholder="Occupation"
+                           ng-model='currentUser.cell'
+                           autofocus><br>
+                    <label class="label2">Employer:</label>
+                    <input type='text' placeholder="Employer"
+                           ng-model='currentUser.work'
+                           autofocus><span />
+                    <label class="label2">Former Employer:</label>
+                    <input type='text' placeholder="Former Employer"
+                           ng-model='currentUser.work'
+                           autofocus>
+
 
                 </div>
 
